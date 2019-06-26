@@ -47,7 +47,6 @@ function buyMore() {
     ])
     .then(function(response) {
       if (response.buyMore) {
-        displayProducts();
         shop();
       } else {
         console.log("Thanks for your buy. Have a nice day.");
